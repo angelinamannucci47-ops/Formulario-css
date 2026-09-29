@@ -1,0 +1,98 @@
+body{
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #d07fdf 0%, #90408e 100%);
+    min-height: 100vh;        
+    display: flex;              
+    justify-content: center;   
+    align-items: center;        
+    padding: 2rem;             
+    line-height: 1.6;         
+    color: #1e293b;      
+     
+}
+
+#caja{
+    background-color: rgb(236, 172, 241);
+    border: 70%;
+    label{
+          font-weight: bold;
+    }
+}
+
+input[type="text"]{
+    width: 400px;
+    height: 15px;
+    font-size: 14px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+h1 {
+    font-size: 2rem;         
+    font-weight: 700;        
+    color: #43003a;           
+    margin-bottom: 0.25rem; 
+    text-align: center;     
+}
+
+h1 + p {
+    text-align: center;
+    color: #ffffff;           
+    margin-bottom: 2rem;      
+    font-size: 0.95rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;  
+    gap: 1.5rem;             
+}
+
+                   
+h3{
+    font-size: 25px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+#caj1, #cajita{
+    background-color: beige;
+    border-radius: 10%;
+    text-align: center;
+}
+#cajita{
+width: 200px;
+height: 50px;
+a{
+    font-size: 30px;
+    text-align: center;
+}
+}
+
+
+#contenedor-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  gap: 20px;          
+    
+}
+
+img {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+footer{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <div >
+        <h1><em>Formulario by BOBYK</h1></em>
+        <p>Completa todos los campos y descubrí cuanto conoces hacerca de BOBYK...</p>
+
+         <form action="#" method="POST" id="registroForm">
+
+            <fieldset>
+                <h3>Datos Personales del alumno/conocido de Bobyk, que realizará el formulario:</h3>
+
+                <div id="caja">
+                    <label for="nombre">Nombre completo </label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Angelina Piñeiro" required>
+                </div>
+  <br>
+                <div id="caja">
+                    <label for="email">Correo electrónico </label>
+                    <input type="email" id="email" name="email" placeholder="Ej: angelina23@gmail.com" required>
+                </div>
+                <br>
+                 <div id="caja">
+                    <label for="Curso">Curso al que perteneces</label>
+                    <input type="Curso" id="Curso" name="Curso" placeholder="Ej: 4°B ">
+                </div>
+<br>
+            </fieldset>
+
+       <fieldset>
+ <h3>Nivel 1: Bobyk básico</h3>
+               <div id="caja">
+                    <label for="fechaNacimiento">Fecha de nacimiento de Bobyk</label>
+                    <input type="date" id="fechaNacimiento" name="¿Cuando es el cumpleaños de la maquina?">
+                </div>
+                 <br>
+                <div id="caja">
+                    <label for="Color">Color favorito </label>
+                    <select id="Color" name="Color" required>
+                        <option value="">Selecciona su color favorito...</option>
+                        <option value="Azul">Azul</option>
+                        <option value="Negro">Negro</option>
+                        <option value="Blanco">Blanco</option>
+                        <option value="Rojo">Rojo</option>
+                        <option value="Verde">Verde</option>
+                         <option value="Naranja">Naranja</option>
+                        <option value="Rosa">Rosa</option>
+                        <option value="Violeta">Violeta</option>
+                        <option value="Amarillo">Amarillo</option>
+                    </select>
+                </div>
+ <div id="caja">
+    <br>
+                    <label>Área a la que se dedica...</label>
+                    <div>
+                        <label>
+                            <input type="radio" name="área" value="Artes">
+                            Artes
+                        </label>
+                        
+                        <label>
+                            <input type="radio" name="área" value="Informática">
+                            Informática
+                        </label>
+                        <label>
+                            <input type="radio" name="área" value="Ciencias Sociales">
+                            Ciencias Sociales
+                        </label>
+                        <label>
+                            <input type="radio" name="área" value="Ciencias Naturales" checked>
+                           Ciencias Naturales
+                        </label>
+                    </div>
+       </fieldset>   
+             <fieldset>
+ <h3>Nivel 2: Fan de Bobyk </h3>
+                <div id="caja">
+                    <label for="grupo">¿Cuál es su grupo de K-pop favorito?</label>
+                    <select id="grupo" name="grupo" required>
+                        <option value="">Selecciona un país...</option>
+                        <option value="BTS">BTS</option>
+                        <option value="BLACKPINK">BLACKPINK</option>
+                        <option value="TWICE">TWICE</option>
+                        <option value="Stray Kids">Stray Kids</option>
+                        <option value="NewJeans">NewJeans</option>
+                        <option value="IVE">IVE</option>
+                    </select>
+                </div>
+<br>
+                                <div id="caja">
+                    <label>¿Cómo se llamara su futuro/ra hijo o hija?</label>
+                    <div>
+                        <label>
+                            <input type="radio" name="nombre" value="Milena Ester o Mileno Esterino">
+                            Milena Ester o Mileno Esterino
+                        </label>
+                         <br>
+                        <label>
+                            <input type="radio" name="nombre" value="Andrés Alberto o Andrea Alberta ">
+                            Andrés Alberto o Andrea Alberta
+                        </label>
+                        <br>
+                        <label>
+                            <input type="radio" name="nombre" value="Mila Victoria o Milo Victorio">
+                            Mila Victoria o Milo Victorio
+                        </label>
+                    </div>
+
+                       <div id="caja">
+                        <br>
+                    <label>Cosas que odia...</label>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="cosas" value="Sus alumnos">
+                            Sus alumnos
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="cosas" value="Gritos o ruidos fuertes">
+                            Gritos o ruidos fuertes
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="cosas" value="El descontrol">
+                            El descontrol
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="cosas" value="Que hagan los tps con IA y no entiendan nada">
+                            Que hagan los tps con IA y no entiendan nada
+                        </label>
+                    </div>
+                </div>
+             </fieldset>
+
+                <fieldset>
+ <h3>Nivel 3: Bobyk experto</h3>
+
+      <div id="caja">
+                    <label for="Colegio">Tipo de colegio donde fue... </label>
+                    <select id="Colegio" name="Colegio" required>
+                        <option value="">Selecciona un tipo de colegio...</option>
+                        <option value="Bachiller">Bachiller con orientación artística</option>
+                        <option value="Religioso">Con creencias religiosas muy marcadas</option>
+                        <option value="Industrial">Industrial/téctico, etc.</option>
+                  <br>
+                    </select>     
+<div >
+    <br>
+    <br>
+
+                    <label>BOBYK's bestie:</label>
+                    <div id="caja">
+                        <label>
+                            <input type="radio" name="bestie" value="Daniel Cortés">
+                            Daniel Cortés
+                        </label>
+                         <br>
+                        <label>
+                            <input type="radio" name="bestie" value="Oscar Rodríguez">
+                            Oscar Rodríguez
+                        </label>
+                         <br>
+                        <label>
+                            <input type="radio" name="bestie" value="Alan Acosta">
+                            Alan Acosta
+                        </label>
+                         <br>
+                        <label>
+                            <input type="radio" name="bestie" value="Lorena Vertones" checked>
+                           Lorena Vertone
+                        </label>
+                    </div>
+
+             </fieldset>
+ <fieldset>
+ <h3>Extra:</h3>
+        <div id="caja">
+        
+                    <label for="Frase">Escribí tu frase favorita de BOBYK: </label>
+                     <br>
+                    <input type="text" id="frase" name="frase" placeholder="Ej: Ostia diablo, me la has puesto difícil. ">
+                <br>
+                </div>
+                 <br>
+     <h3> ¿Cuánto queres o aprecias a BOBYK?</h3>
+                            <div id="caja">
+                        <label>
+                            <input type="checkbox" name="cariño" value="MUCHO">
+                            MUCHO
+                        </label>
+                        <label>
+                            <input type="checkbox" name="cariño" value="MÁS O MENOS">
+                            MÁS O MENOS
+                        </label>
+                        <label>
+                            <input type="checkbox" name="cariño" value="POCO">
+                           POCO
+                        </label>
+                    </div>
+                    <br>
+                       <br>
+                          <div class="botones">
+                <button type="submit">Registrarse</button>
+                <button type="reset">Limpiar formulario</button>
+            </div>
+                     </fieldset>
+                     <br>
+<br>
+                   <img src="img/Bobyk.jpg" alt=" Bobyk">
+                      <br>
+                       <br>
+     <footer><em>Realizado con fines educativos por: Angelina Piñeiro 4°B</em></footer>
+        
+        </form>
+        
+</body>
+</html>
